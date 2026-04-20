@@ -1,9 +1,9 @@
 # Runeword Explorer &mdash; Reign of the Warlock
 
-![Version](https://img.shields.io/badge/version-3.1.2-amber?style=for-the-badge&labelColor=1a1a1a)
+![D2R Version](https://img.shields.io/badge/D2R_Version-3.1.2-amber?style=for-the-badge&labelColor=1a1a1a)
 ![License](https://img.shields.io/badge/license-MIT-emerald?style=for-the-badge&labelColor=1a1a1a)
 ![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react&labelColor=1a1a1a)
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&labelColor=1a1a1a)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js&labelColor=1a1a1a)
 
 **Runeword Explorer** is a high-performance, immersive utility designed for the modern *Diablo II: Resurrected* player. Released alongside the **Reign of the Warlock** expansion (2026), this tool empowers you to master the forge by providing real-time inventory analysis and smart craftability forecasting.
 
@@ -23,7 +23,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router, Turbopack)
+- **Framework**: [Next.js 16+](https://nextjs.org/) (App Router, Turbopack)
 - **Library**: [React 19](https://react.dev/)
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
