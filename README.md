@@ -4,8 +4,9 @@
 ![License](https://img.shields.io/badge/license-MIT-emerald?style=for-the-badge&labelColor=1a1a1a)
 ![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react&labelColor=1a1a1a)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js&labelColor=1a1a1a)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel&labelColor=1a1a1a)](https://d2-runeword-explorer.vercel.app/)
 
-**Runeword Explorer** is a high-performance, immersive utility designed for the modern *Diablo II: Resurrected* player. Released alongside the **Reign of the Warlock** expansion (2026), this tool empowers you to master the forge by providing real-time inventory analysis and smart craftability forecasting.
+**Runeword Explorer** is a high-performance, immersive utility designed for the modern *Diablo II: Resurrected* player. Released alongside the **Reign of the Warlock** expansion (2026), this tool empowers you to master the forge by providing real-time inventory analysis and smart craftability forecasting. [Experience the live demo here](https://d2-runeword-explorer.vercel.app/).
 
 ---
 
