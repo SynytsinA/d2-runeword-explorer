@@ -1,50 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Runeword Explorer &mdash; Reign of the Warlock
 
-## Getting Started
+![Version](https://img.shields.io/badge/version-3.1.2-amber?style=for-the-badge&labelColor=1a1a1a)
+![License](https://img.shields.io/badge/license-MIT-emerald?style=for-the-badge&labelColor=1a1a1a)
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react&labelColor=1a1a1a)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&labelColor=1a1a1a)
 
-First, run the development server:
+**Runeword Explorer** is a high-performance, immersive utility designed for the modern *Diablo II: Resurrected* player. Released alongside the **Reign of the Warlock** expansion (2026), this tool empowers you to master the forge by providing real-time inventory analysis and smart craftability forecasting.
 
+---
+
+## 💎 Key Features
+
+- **Inventory Management (Local-First)**: Track your runes with a persistent, blazingly fast stash that respects your privacy.
+- **Smart Craftability Logic**: Automatically categorizes every runeword in the game:
+  - ✅ **Craftable**: You have the runes. Strike while the iron is hot.
+  - ⏳ **Almost Ready**: Only one rune away from greatness.
+  - ❌ **Unavailable**: The long road ahead.
+- **2026 Expansion Content**: Fully updated with the latest runewords and mechanics from the *Reign of the Warlock* cycle.
+- **Premium Dark Aesthetic**: A responsive UI built with carefully curated "Amber" Diablo tones, glassmorphism, and fluid animations.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router, Turbopack)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Testing**: [Vitest](https://vitest.dev/) & React Testing Library
+- **Quality Gates**: [Husky](https://typicode.github.io/husky/) (Git Hooks) & ESLint
+
+---
+
+## 🏗️ Architecture
+
+The project follows a modular, scalable architecture designed for clarity and performance:
+- **`src/components`**: Organized into `ui/` primitives and `dashboard/` features.
+- **`src/hooks`**: Encapsulated state logic (Inventory, Filtering, Infinite Scroll).
+- **`src/constants`**: Single source of truth for game data and assets.
+- **`src/utils`**: Pure helper functions for search, string manipulation, and analytics.
+
+---
+
+## 🚀 Development
+
+### Prerequisites
+- Node.js 18+ 
+- npm / pnpm / yarn
+
+### Getting Started
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000)
+
+### Quality Control
+Before every push, automated checks run to ensure code integrity. You can run the full validation suite manually:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run validate
+```
+This script executes **Linting**, **Type-checking**, and **Unit Testing** in sequence.
+
+---
+
+## 🧪 Testing
+
+We value reliability. The project includes a comprehensive test suite covering hooks, utilities, and components.
+
+Run tests:
+```bash
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-## Development
-
-This project uses [Husky](https://typicode.github.io/husky/) to ensure code quality through automated pre-push checks. Every time you attempt to `git push`, the following sequence runs:
-- **Linting**: Checks for code style and potential errors.
-- **Type-checking**: Ensures TypeScript types are valid.
-- **Unit Tests**: Runs the Vitest suite to prevent regressions.
-
-If any of these checks fail, the push will be aborted. You can run these checks manually using:
+Generate coverage report:
 ```bash
-npm run lint
-npm run typecheck
-npm run test:run
+npm run test:coverage
 ```
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+&copy; 2026 Artem Synytsin. Built for the community.

@@ -229,6 +229,12 @@ export function DashboardClient({ runes, runewords }: DashboardClientProps) {
             </div>
           </div>
         </section>
+
+        <footer className="pt-20 pb-10 border-t border-zinc-800/50 text-center">
+          <p className="text-zinc-500 text-sm font-light tracking-wide">
+            &copy; 2026 Runeword Explorer. Built for the Diablo II: Resurrected community.
+          </p>
+        </footer>
       </div>
 
       {/* Scroll to Top Button */}

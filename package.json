@@ -1,6 +1,7 @@
 {
   "name": "d2-runeword-explorer",
   "version": "0.1.0",
+  "description": "Next-generation Diablo II: Resurrected runeword management tool with real-time inventory tracking and craftability analytics.",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -12,6 +13,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
+    "validate": "npm run lint && npm run typecheck && npm run test",
     "prepare": "husky"
   },
   "dependencies": {

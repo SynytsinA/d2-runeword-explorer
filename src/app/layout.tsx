@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "D2R Runeword Explorer",
-  description: "Advanced Diablo 2 Resurrected Runeword Tracker and Inventory Analyzer",
+  title: "Runeword Explorer | Reign of the Warlock",
+  description: "Advanced Diablo II: Resurrected Runeword Tracker with real-time inventory management and craftability analysis.",
   icons: {
     icon: "/favicon.png",
   },
