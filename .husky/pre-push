@@ -1,0 +1,1 @@
+echo "🚀 Running pre-push checks (Lint, Typecheck, Tests)..." && npm run lint && npm run typecheck && npm run test:run

@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Development
+
+This project uses [Husky](https://typicode.github.io/husky/) to ensure code quality through automated pre-push checks. Every time you attempt to `git push`, the following sequence runs:
+- **Linting**: Checks for code style and potential errors.
+- **Type-checking**: Ensures TypeScript types are valid.
+- **Unit Tests**: Runs the Vitest suite to prevent regressions.
+
+If any of these checks fail, the push will be aborted. You can run these checks manually using:
+```bash
+npm run lint
+npm run typecheck
+npm run test:run
+```
